@@ -1,0 +1,28 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-group {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.input-group, .form-group {
+  margin-bottom: 10px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.button-container .footer {
+  margin: 10px;
+}
